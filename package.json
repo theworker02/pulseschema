@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/pulseschema",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pulse encode/decode helpers for schema payloads in pipelines.",
+  "bin": {
+    "pulseschema": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/pulseschema.git"
+  },
+  "homepage": "https://theworker02.github.io/pulseschema/",
+  "keywords": [
+    "pulse",
+    "schema",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
